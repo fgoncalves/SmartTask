@@ -1,0 +1,5 @@
+<project name="SMSSerializer" default="compile">
+	<target name="compile">
+		<jar basedir="bin" destfile="bin/SMSSerializer.jar" includes="**/*.class"/>
+	</target>
+</project>

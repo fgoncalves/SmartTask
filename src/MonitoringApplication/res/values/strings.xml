@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">MonitoringApplication</string>
+	<string name="mysql_database_url">jdbc:mysql://10.0.2.2/smartask</string>
+	<string name="mysql_database_user">root</string>
+	<string name="mysql_database_password"></string>
+	<string name="mysql_database_services_log_file"></string>
+	<string name="coordinate_sending_velocity_prompt">Velocity</string>
+	
+	<string-array name="velocity">
+		<item>x1</item>
+		<item>x2</item>
+		<item>x3</item>
+		<item>x4</item>
+		<item>x5</item>
+	</string-array>
+</resources>

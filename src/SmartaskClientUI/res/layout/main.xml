@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/LinearLayout01"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_gravity="center_vertical" android:layout_height="wrap_content"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView android:text="Username:" android:id="@+id/UsernameLabel"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"></TextView>
+	<EditText android:text="" android:id="@+id/UsernameTextbox"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+	<LinearLayout android:id="@+id/LinearLayout02"
+		android:orientation="horizontal" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="right">
+		
+
+		<Button android:text="Login" android:id="@+id/LoginButton"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+</LinearLayout>

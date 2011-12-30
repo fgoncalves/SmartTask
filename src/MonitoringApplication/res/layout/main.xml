@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout01"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:layout_gravity="center"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<Button android:text="Conflicts" android:id="@+id/conflictsButton"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+	<Button android:text="Map" android:id="@+id/mapsButton"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+
+	<Button android:text="Send coordinates" android:id="@+id/sendKMLCoordinatesButton"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+	<CheckBox android:text="Timed" android:id="@+id/timedKMLCoordinatesCheckbox"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:checked="true"></CheckBox>
+	<TextView android:text="Sending speed (coordinates per second):"
+		android:id="@+id/TextView01" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"></TextView>
+	<Spinner android:id="@+id/sendKMLCoordinatesSpinner"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:prompt="@string/coordinate_sending_velocity_prompt"></Spinner>
+
+
+</LinearLayout>

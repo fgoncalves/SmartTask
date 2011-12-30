@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout01"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_gravity="center_vertical" android:layout_height="wrap_content"
+	android:scrollbars="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView android:text="Task name:" android:id="@+id/TextView01"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+	<TextView android:text="" android:id="@+id/detailTaskNameLabel"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+
+	<TextView android:text="Description:" android:id="@+id/TextView02"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<TextView android:text="" android:id="@+id/detailTaskDescriptionLabel"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+
+	<TextView android:text="Priority:" android:id="@+id/TextView03"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+	<TextView android:text="" android:id="@+id/detailTaskPriorityLabel"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>	
+
+	<TextView android:text="Awarding credits:" android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<TextView android:text="" android:id="@+id/detailTaskCreditsLabel"
+		android:layout_width="wrap_content" android:layout_height="fill_parent"></TextView>
+		
+	<Button android:text="Mark as completed" android:id="@+id/markDoneTaskButton"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+		</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView android:id="@+id/ScrollView01"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="vertical">
+		
+		<TextView android:text="Database server synchronization rate (seconds):"
+			android:id="@+id/TextView01" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<CheckBox android:text="Disable"
+			android:id="@+id/configDBServerConfigurationCheckBox"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></CheckBox>
+		<EditText android:text=""
+			android:id="@+id/configDBServerConfigurationTextBox"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:inputType="number"></EditText>
+
+		<TextView android:text="GPS geo position acquisition rate (seconds):"
+			android:id="@+id/TextView03" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"></TextView>
+		<CheckBox android:text="Disable" android:id="@+id/configPosAcquisitionCheckBox"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></CheckBox>
+		<EditText android:text="" android:id="@+id/configPosAcquisitionTextBox"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:inputType="number"></EditText>
+
+		<TextView android:text="GPS geo position notification send rate (seconds):"
+			android:id="@+id/TextView04" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<CheckBox android:text="Disable"
+			android:id="@+id/configPosNotificationSendCheckBox"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></CheckBox>
+		<EditText android:text=""
+			android:id="@+id/configPosNotificationSendTextBox"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:inputType="number"></EditText>
+
+		<TextView android:text="Database server notification receive rate (seconds):"
+			android:id="@+id/TextView05" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<CheckBox android:text="Disable" android:id="@+id/configDBNotificationCheckBox"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></CheckBox>
+		<EditText android:text="" android:id="@+id/configDBNotificationTextBox"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:inputType="number"></EditText>
+
+		<TextView android:text="Task notification radius (meters):"
+			android:id="@+id/TextView05" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<EditText android:text="" android:id="@+id/configTaskRadiusTextBox"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:inputType="numberDecimal"></EditText>
+
+		<TextView android:text="User notification radius (meters):"
+			android:id="@+id/TextView05" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<EditText android:text="" android:id="@+id/configUserRadiusTextBox"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:inputType="numberDecimal"></EditText>
+
+		<TextView android:text="Maximum number of tasks:" android:id="@+id/TextView05"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<EditText android:text="" android:id="@+id/configNumberOfTasksTextBox"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:inputType="number"></EditText>
+
+		<Button android:text="Save changes" android:id="@+id/saveConfigurationButton"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+</ScrollView>

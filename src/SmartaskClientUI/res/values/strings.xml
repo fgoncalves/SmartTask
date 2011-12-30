@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">SmartTaskClient</string>
+	<string name="exit_button_label">Exit</string>
+	<string name="choose_task_priority_prompt">Task priority</string>
+	<string name="create_task_menu_button_label">Save</string>
+	<string name="create_task_map_overlay_prompt">When you\'re done, select "Save" in menu options.</string>
+	<string name="mysql_database_url">jdbc:mysql://10.0.2.2/smartask</string>
+	<string name="mysql_database_user">root</string>
+	<string name="mysql_database_password"></string>
+	<string name="mysql_database_services_log_file"></string>
+	<string name="Task_Notification">Task notification</string>
+	<string name="User_Notification">User notification</string>
+	<string name="im_messaging">immessaging</string>
+	<string name="request_notification">request notification</string>
+	
+	<string-array name="task_priority">
+		<item>Normal</item>
+		<item>Urgent</item>
+		<item>Critical</item>
+	</string-array>
+</resources>
