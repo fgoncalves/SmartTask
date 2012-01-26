@@ -1,3 +1,14 @@
+Small description
+=================
+
+Imagine a student residence with several... well, students. These students need to keep themselves organized in order to do their every day tasks. Task such as clean the house or go to the grocery store.
+
+SmartTask is an Android application which provides students with a common environment and enables them to manage such tasks.
+
+A student creates a task, which can be for multiple users and assigns it one or more locations in a map. The system will take care of assigning those tasks to the correct students (Tasks are assigned to the students with fewer points, with no tasks currently assigned. Students are rewarded with points upon completing the assigned tasks). When a User approaches a location with an assigned task to him, an alert is displayed in the mobile device to notify such user.
+
+SmartTask will automatically synchronize tasks between devices when users are near eachother. Also, there is a central server in the student residence to where data is automatically synchronized.
+
 Content
 ========
 
